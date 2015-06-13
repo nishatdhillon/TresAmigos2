@@ -7,12 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C973410C1B2BCADF00F87583 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C973410B1B2BCADF00F87583 /* AVFoundation.framework */; };
+		C97341111B2BD09400F87583 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97341101B2BD09400F87583 /* UIKit.framework */; };
+		C97341141B2BDC0500F87583 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97341131B2BDC0500F87583 /* SystemConfiguration.framework */; };
+		C97341161B2BDC1400F87583 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97341151B2BDC1400F87583 /* CFNetwork.framework */; };
+		C97341181B2BDC2300F87583 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97341171B2BDC2300F87583 /* Security.framework */; };
+		C973411F1B2BEA7D00F87583 /* SpeechKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C973411E1B2BEA7D00F87583 /* SpeechKit.framework */; };
+		C97341201B2BEA7D00F87583 /* SpeechKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C973411E1B2BEA7D00F87583 /* SpeechKit.framework */; };
+		C973412E1B2BEE1A00F87583 /* NuanceHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C973412D1B2BEE1A00F87583 /* NuanceHeader.m */; };
+		C973412F1B2BEE1A00F87583 /* NuanceHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C973412D1B2BEE1A00F87583 /* NuanceHeader.m */; };
 		C98C4B771B2BC39600EB74F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98C4B761B2BC39600EB74F5 /* AppDelegate.swift */; };
 		C98C4B791B2BC39600EB74F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98C4B781B2BC39600EB74F5 /* ViewController.swift */; };
 		C98C4B7C1B2BC39600EB74F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C98C4B7A1B2BC39600EB74F5 /* Main.storyboard */; };
 		C98C4B7E1B2BC39600EB74F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C98C4B7D1B2BC39600EB74F5 /* Images.xcassets */; };
 		C98C4B811B2BC39600EB74F5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C98C4B7F1B2BC39600EB74F5 /* LaunchScreen.xib */; };
 		C98C4B8D1B2BC39600EB74F5 /* TresAmigosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98C4B8C1B2BC39600EB74F5 /* TresAmigosTests.swift */; };
+		C98C4B971B2BC3C400EB74F5 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98C4B961B2BC3C400EB74F5 /* ExternalAccessory.framework */; };
+		C98C4B9A1B2BC3C700EB74F5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98C4B991B2BC3C700EB74F5 /* AudioToolbox.framework */; };
+		C98C4B9C1B2BC40300EB74F5 /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98C4B9B1B2BC40300EB74F5 /* HomeKit.framework */; };
+		C98C4BA91B2BC44900EB74F5 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98C4BA81B2BC44900EB74F5 /* InterfaceController.swift */; };
+		C98C4BAB1B2BC44900EB74F5 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98C4BAA1B2BC44900EB74F5 /* NotificationController.swift */; };
+		C98C4BAD1B2BC44900EB74F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C98C4BAC1B2BC44900EB74F5 /* Images.xcassets */; };
+		C98C4BB11B2BC44900EB74F5 /* TresAmigos WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = C98C4BB01B2BC44900EB74F5 /* TresAmigos WatchKit App.app */; };
+		C98C4BB91B2BC44900EB74F5 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C98C4BB71B2BC44900EB74F5 /* Interface.storyboard */; };
+		C98C4BBB1B2BC44900EB74F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C98C4BBA1B2BC44900EB74F5 /* Images.xcassets */; };
+		C98C4BBE1B2BC44900EB74F5 /* TresAmigos WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C98C4BA31B2BC44900EB74F5 /* TresAmigos WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,9 +42,47 @@
 			remoteGlobalIDString = C98C4B701B2BC39600EB74F5;
 			remoteInfo = TresAmigos;
 		};
+		C98C4BB21B2BC44900EB74F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C98C4B691B2BC39600EB74F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C98C4BAF1B2BC44900EB74F5;
+			remoteInfo = "TresAmigos WatchKit App";
+		};
+		C98C4BBC1B2BC44900EB74F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C98C4B691B2BC39600EB74F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C98C4BA21B2BC44900EB74F5;
+			remoteInfo = "TresAmigos WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C98C4BC51B2BC44900EB74F5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C98C4BBE1B2BC44900EB74F5 /* TresAmigos WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		C973410B1B2BCADF00F87583 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C97341101B2BD09400F87583 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C97341131B2BDC0500F87583 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C97341151B2BDC1400F87583 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C97341171B2BDC2300F87583 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C973411E1B2BEA7D00F87583 /* SpeechKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpeechKit.framework; sourceTree = "<group>"; };
+		C97341221B2BEC4500F87583 /* TresAmigos-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TresAmigos-Bridging-Header.h"; sourceTree = "<group>"; };
+		C97341231B2BEC4500F87583 /* TresAmigos WatchKit Extension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TresAmigos WatchKit Extension-Bridging-Header.h"; sourceTree = "<group>"; };
+		C973412C1B2BEDBE00F87583 /* NuanceHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NuanceHeader.h; sourceTree = "<group>"; };
+		C973412D1B2BEE1A00F87583 /* NuanceHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NuanceHeader.m; sourceTree = "<group>"; };
 		C98C4B711B2BC39600EB74F5 /* TresAmigos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TresAmigos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98C4B751B2BC39600EB74F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C98C4B761B2BC39600EB74F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +93,20 @@
 		C98C4B861B2BC39600EB74F5 /* TresAmigosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TresAmigosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98C4B8B1B2BC39600EB74F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C98C4B8C1B2BC39600EB74F5 /* TresAmigosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TresAmigosTests.swift; sourceTree = "<group>"; };
+		C98C4B961B2BC3C400EB74F5 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		C98C4B981B2BC3C400EB74F5 /* TresAmigos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TresAmigos.entitlements; sourceTree = "<group>"; };
+		C98C4B991B2BC3C700EB74F5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C98C4B9B1B2BC40300EB74F5 /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+		C98C4BA31B2BC44900EB74F5 /* TresAmigos WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TresAmigos WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C98C4BA61B2BC44900EB74F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C98C4BA71B2BC44900EB74F5 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		C98C4BA81B2BC44900EB74F5 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C98C4BAA1B2BC44900EB74F5 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		C98C4BAC1B2BC44900EB74F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C98C4BB01B2BC44900EB74F5 /* TresAmigos WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TresAmigos WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C98C4BB61B2BC44900EB74F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C98C4BB81B2BC44900EB74F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C98C4BBA1B2BC44900EB74F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +114,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C97341181B2BDC2300F87583 /* Security.framework in Frameworks */,
+				C97341161B2BDC1400F87583 /* CFNetwork.framework in Frameworks */,
+				C97341141B2BDC0500F87583 /* SystemConfiguration.framework in Frameworks */,
+				C973411F1B2BEA7D00F87583 /* SpeechKit.framework in Frameworks */,
+				C97341111B2BD09400F87583 /* UIKit.framework in Frameworks */,
+				C973410C1B2BCADF00F87583 /* AVFoundation.framework in Frameworks */,
+				C98C4B9A1B2BC3C700EB74F5 /* AudioToolbox.framework in Frameworks */,
+				C98C4B9C1B2BC40300EB74F5 /* HomeKit.framework in Frameworks */,
+				C98C4B971B2BC3C400EB74F5 /* ExternalAccessory.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,14 +133,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C98C4BA01B2BC44900EB74F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97341201B2BEA7D00F87583 /* SpeechKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C97341211B2BEC1000F87583 /* Dragon */ = {
+			isa = PBXGroup;
+			children = (
+				C97341221B2BEC4500F87583 /* TresAmigos-Bridging-Header.h */,
+				C97341231B2BEC4500F87583 /* TresAmigos WatchKit Extension-Bridging-Header.h */,
+				C973412C1B2BEDBE00F87583 /* NuanceHeader.h */,
+				C973412D1B2BEE1A00F87583 /* NuanceHeader.m */,
+			);
+			name = Dragon;
+			sourceTree = "<group>";
+		};
 		C98C4B681B2BC39600EB74F5 = {
 			isa = PBXGroup;
 			children = (
+				C973411E1B2BEA7D00F87583 /* SpeechKit.framework */,
+				C97341171B2BDC2300F87583 /* Security.framework */,
+				C97341151B2BDC1400F87583 /* CFNetwork.framework */,
+				C97341131B2BDC0500F87583 /* SystemConfiguration.framework */,
+				C97341101B2BD09400F87583 /* UIKit.framework */,
+				C973410B1B2BCADF00F87583 /* AVFoundation.framework */,
+				C98C4B9B1B2BC40300EB74F5 /* HomeKit.framework */,
+				C98C4B991B2BC3C700EB74F5 /* AudioToolbox.framework */,
+				C98C4B961B2BC3C400EB74F5 /* ExternalAccessory.framework */,
 				C98C4B731B2BC39600EB74F5 /* TresAmigos */,
 				C98C4B891B2BC39600EB74F5 /* TresAmigosTests */,
+				C98C4BA41B2BC44900EB74F5 /* TresAmigos WatchKit Extension */,
+				C98C4BB41B2BC44900EB74F5 /* TresAmigos WatchKit App */,
+				C97341211B2BEC1000F87583 /* Dragon */,
 				C98C4B721B2BC39600EB74F5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +181,8 @@
 			children = (
 				C98C4B711B2BC39600EB74F5 /* TresAmigos.app */,
 				C98C4B861B2BC39600EB74F5 /* TresAmigosTests.xctest */,
+				C98C4BA31B2BC44900EB74F5 /* TresAmigos WatchKit Extension.appex */,
+				C98C4BB01B2BC44900EB74F5 /* TresAmigos WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,6 +190,7 @@
 		C98C4B731B2BC39600EB74F5 /* TresAmigos */ = {
 			isa = PBXGroup;
 			children = (
+				C98C4B981B2BC3C400EB74F5 /* TresAmigos.entitlements */,
 				C98C4B761B2BC39600EB74F5 /* AppDelegate.swift */,
 				C98C4B781B2BC39600EB74F5 /* ViewController.swift */,
 				C98C4B7A1B2BC39600EB74F5 /* Main.storyboard */,
@@ -112,6 +226,44 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C98C4BA41B2BC44900EB74F5 /* TresAmigos WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C98C4BA81B2BC44900EB74F5 /* InterfaceController.swift */,
+				C98C4BAA1B2BC44900EB74F5 /* NotificationController.swift */,
+				C98C4BAC1B2BC44900EB74F5 /* Images.xcassets */,
+				C98C4BA51B2BC44900EB74F5 /* Supporting Files */,
+			);
+			path = "TresAmigos WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C98C4BA51B2BC44900EB74F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C98C4BA61B2BC44900EB74F5 /* Info.plist */,
+				C98C4BA71B2BC44900EB74F5 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C98C4BB41B2BC44900EB74F5 /* TresAmigos WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C98C4BB71B2BC44900EB74F5 /* Interface.storyboard */,
+				C98C4BBA1B2BC44900EB74F5 /* Images.xcassets */,
+				C98C4BB51B2BC44900EB74F5 /* Supporting Files */,
+			);
+			path = "TresAmigos WatchKit App";
+			sourceTree = "<group>";
+		};
+		C98C4BB51B2BC44900EB74F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C98C4BB61B2BC44900EB74F5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +274,12 @@
 				C98C4B6D1B2BC39600EB74F5 /* Sources */,
 				C98C4B6E1B2BC39600EB74F5 /* Frameworks */,
 				C98C4B6F1B2BC39600EB74F5 /* Resources */,
+				C98C4BC51B2BC44900EB74F5 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C98C4BBD1B2BC44900EB74F5 /* PBXTargetDependency */,
 			);
 			name = TresAmigos;
 			productName = TresAmigos;
@@ -150,6 +304,39 @@
 			productReference = C98C4B861B2BC39600EB74F5 /* TresAmigosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		C98C4BA21B2BC44900EB74F5 /* TresAmigos WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C98C4BC21B2BC44900EB74F5 /* Build configuration list for PBXNativeTarget "TresAmigos WatchKit Extension" */;
+			buildPhases = (
+				C98C4B9F1B2BC44900EB74F5 /* Sources */,
+				C98C4BA01B2BC44900EB74F5 /* Frameworks */,
+				C98C4BA11B2BC44900EB74F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C98C4BB31B2BC44900EB74F5 /* PBXTargetDependency */,
+			);
+			name = "TresAmigos WatchKit Extension";
+			productName = "TresAmigos WatchKit Extension";
+			productReference = C98C4BA31B2BC44900EB74F5 /* TresAmigos WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		C98C4BAF1B2BC44900EB74F5 /* TresAmigos WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C98C4BBF1B2BC44900EB74F5 /* Build configuration list for PBXNativeTarget "TresAmigos WatchKit App" */;
+			buildPhases = (
+				C98C4BAE1B2BC44900EB74F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TresAmigos WatchKit App";
+			productName = "TresAmigos WatchKit App";
+			productReference = C98C4BB01B2BC44900EB74F5 /* TresAmigos WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,10 +348,41 @@
 				TargetAttributes = {
 					C98C4B701B2BC39600EB74F5 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = W9FW4UT925;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 0;
+							};
+							com.apple.HomeKit = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+							com.apple.OMC = {
+								enabled = 0;
+							};
+							com.apple.WAC = {
+								enabled = 1;
+							};
+						};
 					};
 					C98C4B851B2BC39600EB74F5 = {
 						CreatedOnToolsVersion = 6.3.2;
 						TestTargetID = C98C4B701B2BC39600EB74F5;
+					};
+					C98C4BA21B2BC44900EB74F5 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = W9FW4UT925;
+					};
+					C98C4BAF1B2BC44900EB74F5 = {
+						CreatedOnToolsVersion = 6.3.2;
 					};
 				};
 			};
@@ -183,6 +401,8 @@
 			targets = (
 				C98C4B701B2BC39600EB74F5 /* TresAmigos */,
 				C98C4B851B2BC39600EB74F5 /* TresAmigosTests */,
+				C98C4BA21B2BC44900EB74F5 /* TresAmigos WatchKit Extension */,
+				C98C4BAF1B2BC44900EB74F5 /* TresAmigos WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -205,6 +425,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C98C4BA11B2BC44900EB74F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98C4BB11B2BC44900EB74F5 /* TresAmigos WatchKit App.app in Resources */,
+				C98C4BAD1B2BC44900EB74F5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C98C4BAE1B2BC44900EB74F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98C4BB91B2BC44900EB74F5 /* Interface.storyboard in Resources */,
+				C98C4BBB1B2BC44900EB74F5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -214,6 +452,7 @@
 			files = (
 				C98C4B791B2BC39600EB74F5 /* ViewController.swift in Sources */,
 				C98C4B771B2BC39600EB74F5 /* AppDelegate.swift in Sources */,
+				C973412E1B2BEE1A00F87583 /* NuanceHeader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +464,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C98C4B9F1B2BC44900EB74F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98C4BAB1B2BC44900EB74F5 /* NotificationController.swift in Sources */,
+				C98C4BA91B2BC44900EB74F5 /* InterfaceController.swift in Sources */,
+				C973412F1B2BEE1A00F87583 /* NuanceHeader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +481,16 @@
 			isa = PBXTargetDependency;
 			target = C98C4B701B2BC39600EB74F5 /* TresAmigos */;
 			targetProxy = C98C4B871B2BC39600EB74F5 /* PBXContainerItemProxy */;
+		};
+		C98C4BB31B2BC44900EB74F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C98C4BAF1B2BC44900EB74F5 /* TresAmigos WatchKit App */;
+			targetProxy = C98C4BB21B2BC44900EB74F5 /* PBXContainerItemProxy */;
+		};
+		C98C4BBD1B2BC44900EB74F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C98C4BA21B2BC44900EB74F5 /* TresAmigos WatchKit Extension */;
+			targetProxy = C98C4BBC1B2BC44900EB74F5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +509,14 @@
 				C98C4B801B2BC39600EB74F5 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		C98C4BB71B2BC44900EB74F5 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C98C4BB81B2BC44900EB74F5 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -342,9 +609,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TresAmigos/TresAmigos.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+					/Users/davidlheureux/Documents/WatchOS/dragon,
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TresAmigos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "TresAmigos-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -352,9 +632,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TresAmigos/TresAmigos.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+					/Users/davidlheureux/Documents/WatchOS/dragon,
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TresAmigos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "TresAmigos-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -392,6 +684,86 @@
 			};
 			name = Release;
 		};
+		C98C4BC01B2BC44900EB74F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = TresAmigos_WatchKit_Extension;
+				INFOPLIST_FILE = "TresAmigos WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		C98C4BC11B2BC44900EB74F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				IBSC_MODULE = TresAmigos_WatchKit_Extension;
+				INFOPLIST_FILE = "TresAmigos WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		C98C4BC31B2BC44900EB74F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TresAmigos WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TresAmigos WatchKit Extension-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C98C4BC41B2BC44900EB74F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "TresAmigos WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TresAmigos WatchKit Extension-Bridging-Header.h";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -411,6 +783,7 @@
 				C98C4B921B2BC39600EB74F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C98C4B931B2BC39600EB74F5 /* Build configuration list for PBXNativeTarget "TresAmigosTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +792,25 @@
 				C98C4B951B2BC39600EB74F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C98C4BBF1B2BC44900EB74F5 /* Build configuration list for PBXNativeTarget "TresAmigos WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C98C4BC01B2BC44900EB74F5 /* Debug */,
+				C98C4BC11B2BC44900EB74F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C98C4BC21B2BC44900EB74F5 /* Build configuration list for PBXNativeTarget "TresAmigos WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C98C4BC31B2BC44900EB74F5 /* Debug */,
+				C98C4BC41B2BC44900EB74F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

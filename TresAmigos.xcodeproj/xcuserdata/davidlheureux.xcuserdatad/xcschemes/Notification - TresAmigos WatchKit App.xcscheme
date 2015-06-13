@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0630"
+   version = "2.0">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C98C4BAF1B2BC44900EB74F5"
+               BuildableName = "TresAmigos WatchKit App.app"
+               BlueprintName = "TresAmigos WatchKit App"
+               ReferencedContainer = "container:TresAmigos.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C98C4BA21B2BC44900EB74F5"
+               BuildableName = "TresAmigos WatchKit Extension.appex"
+               BlueprintName = "TresAmigos WatchKit Extension"
+               ReferencedContainer = "container:TresAmigos.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C98C4B701B2BC39600EB74F5"
+               BuildableName = "TresAmigos.app"
+               BlueprintName = "TresAmigos"
+               ReferencedContainer = "container:TresAmigos.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C98C4BAF1B2BC44900EB74F5"
+            BuildableName = "TresAmigos WatchKit App.app"
+            BlueprintName = "TresAmigos WatchKit App"
+            ReferencedContainer = "container:TresAmigos.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES"
+      launchAutomaticallySubstyle = "8"
+      notificationPayloadFile = "TresAmigos WatchKit Extension/PushNotificationPayload.apns">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/TresAmigos">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C98C4BAF1B2BC44900EB74F5"
+            BuildableName = "TresAmigos WatchKit App.app"
+            BlueprintName = "TresAmigos WatchKit App"
+            ReferencedContainer = "container:TresAmigos.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C98C4BAF1B2BC44900EB74F5"
+            BuildableName = "TresAmigos WatchKit App.app"
+            BlueprintName = "TresAmigos WatchKit App"
+            ReferencedContainer = "container:TresAmigos.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES"
+      launchAutomaticallySubstyle = "8"
+      notificationPayloadFile = "TresAmigos WatchKit Extension/PushNotificationPayload.apns">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/TresAmigos">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C98C4BAF1B2BC44900EB74F5"
+            BuildableName = "TresAmigos WatchKit App.app"
+            BlueprintName = "TresAmigos WatchKit App"
+            ReferencedContainer = "container:TresAmigos.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C98C4BAF1B2BC44900EB74F5"
+            BuildableName = "TresAmigos WatchKit App.app"
+            BlueprintName = "TresAmigos WatchKit App"
+            ReferencedContainer = "container:TresAmigos.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

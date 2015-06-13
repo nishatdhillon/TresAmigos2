@@ -8,18 +8,42 @@
 
 import UIKit
 
-class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+class MyViewController: UIViewController, SpeechKitDelegate, SKRecognizerDelegate
+{
+    var voiceSearch: SKRecognizer?
+    
+    override func viewDidLoad()
+    {
+        //Setup SpeechKit
+        SpeechKit.setupWithID("NMDPTRIAL_davidlheureux_hotmail_com20150612232556", host: "sandbox.nmdp.nuancemobility.net", port: 443, useSSL: false, delegate: self)
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func someAction()
+    {
+        self.voiceSearch = SKRecognizer(type: SKSearchRecognizerType, detection: UInt(SKLongEndOfSpeechDetection), language:"eng-USA", delegate: self)
+        
     }
-
-
+    
+    func recognizerDidBeginRecording(recognizer: SKRecognizer!)
+    {
+        //The recording has started
+    }
+    
+    func recognizerDidFinishRecording(recognizer: SKRecognizer!)
+    {
+        //The recording has stopped
+    }
+    
+    func recognizer(recognizer: SKRecognizer!, didFinishWithResults results: SKRecognition!)
+    {
+        //The voice recognition process has understood something
+    }
+    
+    func recognizer(recognizer: SKRecognizer!, didFinishWithError error: NSError!, suggestion: String!)
+    {
+        //an error has occurred
+    }
 }
-
